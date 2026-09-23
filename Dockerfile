@@ -1,2 +1,4 @@
-FROM alpine
-CMD ["echo", "Test du build Jenkins depuis mon GitHub"]
+FROM python:alpine
+WORKDIR /app
+COPY hellowolrd.py .
+CMD ["python", "helloworld.py"]
