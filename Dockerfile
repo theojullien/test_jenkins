@@ -1,4 +1,4 @@
 FROM python:alpine
 WORKDIR /app
-COPY hellowolrd.py .
+COPY helloworld.py .
 CMD ["python", "helloworld.py"]
